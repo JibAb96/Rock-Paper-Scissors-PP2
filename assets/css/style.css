@@ -49,15 +49,15 @@ img {
     font-size: 2rem;
 }
 
-#rock:hover {
+#Rock:hover {
     background-color: red;
 }
 
-#paper:hover {
+#Paper:hover {
     background-color: orange;
 }
 
-#scissor:hover {
+#Scissors:hover {
     background-color: greenyellow;
 }
 
