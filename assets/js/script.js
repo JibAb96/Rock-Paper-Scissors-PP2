@@ -1,6 +1,6 @@
 let userTally = 0;
 let computerTally = 0;
-let scoreBoard_div = document.querySelector("score");
+let scoreDiv = document.querySelector("score");
 let rockButton = document.getElementById("rock");
 let paperButton = document.getElementById("paper");
 let scissorsButton = document.getElementById("scissors");
@@ -29,4 +29,23 @@ function computerPick() {
     return picks[random]
 }
 
-function runGame
+function runGame(userPick) {
+    let computerChoice = computerPick();
+    switch (userPick + computerChoice) {
+        case "rockscissor":
+        case "paperrock":
+        case "scissorpaper":
+            win(userPick, computerChoice)
+            break
+        case "rockpaper":
+        case "paperrock":
+        case "scissorpaper":
+            lose(userPick, computerChoice)
+            break
+        case "rockrock":
+        case "paperpaper":
+        case "scissorscissor":
+            draw(userPick, computerChoice)
+            break
+    }
+}
