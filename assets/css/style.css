@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@500&family=Oswald&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    font-family: Oswald, sans-serif;
+    color: #FFFF00;
+    background-color: #151704;
+}
+
+header {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+h1,
+h2 {
+    font-family: Gluten, sans-serif;
+}
+
+img {
+    height: 6rem;
+    width: 6rem;
+}
+
+.game {
+    text-align: center;
+    margin: 4rem;
+    padding: 2rem;
+
+}
+
+.icon {
+    display: inline-block;
+    margin: 3rem;
+    border: 10px solid #FFFF00;
+    padding: 1rem;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    transition: all 0.3s ease;
+}
+
+.score {
+    text-align: center;
+    font-size: 2rem;
+}
+
+#rock:hover {
+    background-color: red;
+}
+
+#paper:hover {
+    background-color: orange;
+}
+
+#scissor:hover {
+    background-color: greenyellow;
+}
+
+.icon:hover {
+    cursor: pointer;
+}
