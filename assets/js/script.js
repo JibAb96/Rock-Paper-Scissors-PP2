@@ -22,7 +22,7 @@ function click() {
     // Event listener for when the scissors button is pressed
     scissorsButton.addEventListener("click", function () {
         runGame("Scissors")
-    })
+    });
 
 }
 // A function for generating random choices for the computer
@@ -30,7 +30,7 @@ function theComputerPick() {
     picks = ["Rock", "Paper", "Scissors"]
     // Generates random numbers between 1 and 3
     random = Math.floor(Math.random() * 3);
-    return picks[random]
+    return picks[random];
 }
 // A function to determine the winner of the game and whether it's a draw 
 function runGame(userPick) {
@@ -52,8 +52,8 @@ function runGame(userPick) {
         case "ScissorsScissors":
             draw(userPick, computerChoice)
             break
-    }
-    theWinner();
+    };
+
 }
 // A function that determines what happens when the user loses the game
 function win(userPick, computerPick) {
@@ -62,7 +62,11 @@ function win(userPick, computerPick) {
     userScoreShown.innerHTML = " " + userTally;
     computerScoreShown.innerHTML = " " + computerTally;
     // Adds comment to page to show how the game played out     
-    resultScript.innerHTML = `${userPick} wins over ${computerPick}. You're the winner! :D`
+    resultScript.innerHTML = `${userPick} wins over ${computerPick}. You're the winner! :D`;
+    document.getElementById(userPick).classList.add("win");
+    setTimeout(function () {
+        document.getElementById(userPick).classList.remove("win"), 300
+    })
 }
 // A function that determines what happens when the user wins the game
 function lose(userPick, computerPick) {
@@ -73,20 +77,10 @@ function lose(userPick, computerPick) {
     // Adds comment to page to show how the game played out     
     resultScript.innerHTML = `${userPick} loses to ${computerPick}. You've lost :(`
 }
-/* A function that determines what happens when the user draws the game */
+// A function that determines what happens when the user draws the game
 function draw(userPick, computerPick) {
     // Adds comment to page to show how the game played out 
-    resultScript.innerHTML = `${userPick} draws against ${computerPick}`
+    resultScript.innerHTML = `${userPick} draws against ${computerPick}`;
 }
 
-function theWinner() {
-    if (userTally === 3) {
-        return gameZone.innerHTML = `<h1>You're the Winner!</h1>`;
-    } else if (computerTally === 3) {
-        return gameZone.innerHTML = `<h1>Computer wins!</h1>`;
-    } else {
-        null
-    }
-}
 click();
-theWinner();

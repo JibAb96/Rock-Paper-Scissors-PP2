@@ -49,18 +49,22 @@ img {
     font-size: 2rem;
 }
 
-#Rock:hover {
-    background-color: red;
-}
-
-#Paper:hover {
+button:hover {
     background-color: orange;
-}
-
-#Scissors:hover {
-    background-color: greenyellow;
 }
 
 .icon:hover {
     cursor: pointer;
+}
+
+.win {
+    background-color: greenyellow;
+}
+
+.lose {
+    background-color: red;
+}
+
+.draw {
+    background-color: gray;
 }
