@@ -1,4 +1,4 @@
-// Declaring variables to be used in the functions comming up
+// Declaring variables to be used in the functions coming up
 let userTally = 0;
 let computerTally = 0;
 let scoreDiv = document.querySelector("score");
@@ -63,10 +63,11 @@ function win(userPick, computerPick) {
     computerScoreShown.innerHTML = " " + computerTally;
     // Adds comment to page to show how the game played out     
     resultScript.innerHTML = `${userPick} wins over ${computerPick}. You're the winner! :D`;
-    document.getElementById(userPick).classList.add("win");
+    // Adds color to result statement to draw attention to result
+    document.querySelector(".result > p").classList.add("win");
     setTimeout(function () {
-        document.getElementById(userPick).classList.remove("win"), 300
-    })
+        document.querySelector(".result > p").classList.remove("win")
+    }, 500)
 }
 // A function that determines what happens when the user wins the game
 function lose(userPick, computerPick) {
@@ -75,12 +76,23 @@ function lose(userPick, computerPick) {
     computerScoreShown.innerHTML = " " + computerTally;
     userScoreShown.innerHTML = " " + userTally;
     // Adds comment to page to show how the game played out     
-    resultScript.innerHTML = `${userPick} loses to ${computerPick}. You've lost :(`
+    resultScript.innerHTML = `${userPick} loses to ${computerPick}. You've lost :(`;
+    // Adds color to result statement to draw attention to result
+    document.querySelector(".result > p").classList.add("lose");
+    setTimeout(function () {
+        document.querySelector(".result > p").classList.remove("lose").remove
+    }, 500);
 }
 // A function that determines what happens when the user draws the game
 function draw(userPick, computerPick) {
     // Adds comment to page to show how the game played out 
     resultScript.innerHTML = `${userPick} draws against ${computerPick}`;
+    // Adds color to result statement to draw attention to result
+    document.querySelector(".result > p").classList.add("draw");
+    setTimeout(function () {
+        document.querySelector(".result > p").classList.remove("draw")
+    }, 500)
+
 }
 
 click();

@@ -58,13 +58,13 @@ button:hover {
 }
 
 .win {
-    background-color: greenyellow;
+    color: greenyellow;
 }
 
 .lose {
-    background-color: red;
+    color: red;
 }
 
 .draw {
-    background-color: gray;
+    color: gray;
 }
