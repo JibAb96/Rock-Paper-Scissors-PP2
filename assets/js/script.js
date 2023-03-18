@@ -57,7 +57,7 @@ function runGame(userPick) {
 }
 // A function that determines what happens when the user loses the game
 function win(userPick, computerPick) {
-    // Adds to the user tally when user wins the game  
+    // Increments the user tally when user wins the game  
     userTally++;
     userScoreShown.innerHTML = " " + userTally;
     computerScoreShown.innerHTML = " " + computerTally;
@@ -71,7 +71,7 @@ function win(userPick, computerPick) {
 }
 // A function that determines what happens when the user wins the game
 function lose(userPick, computerPick) {
-    // Adds to the computer tally when computer wins the game    
+    // Increments the computer tally when computer wins the game    
     computerTally++;
     computerScoreShown.innerHTML = " " + computerTally;
     userScoreShown.innerHTML = " " + userTally;
@@ -95,4 +95,7 @@ function draw(userPick, computerPick) {
 
 }
 
+// Add user name 
+// Add scoreboard
+// Rules
 click();
