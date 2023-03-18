@@ -9,7 +9,11 @@
 body {
     font-family: Oswald, sans-serif;
     color: #FFFF00;
-    background-color: #151704;
+    background-image: url(/assets/images/dark-background-abstract-background-network-3d-background-7680x4320-8324.png);
+    background-position: center;
+    background-repeat: no-repeat;
+
+
 }
 
 header {
