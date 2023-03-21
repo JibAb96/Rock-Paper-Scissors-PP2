@@ -8,8 +8,16 @@ let scissorsButton = document.getElementById("Scissors");
 let userScoreShown = document.getElementById("user-score");
 let computerScoreShown = document.getElementById("comp-score");
 let resultScript = document.querySelector(".result > p");
-let gameZone = document.querySelector("game")
+let gameZone = document.querySelector("game");
+let userText = document.getElementById("user-text");
+let entryButton = document.getElementById("entry");
+let output = document.getElementById("output")
 // Event listeners for the buttons on the game to trigger the game functions 
+function userName() {
+    output.textContent = userText.value;
+}
+entryButton.addEventListener("click", userName)
+
 function click() {
     // Event listener for when the rock button is pressed 
     rockButton.addEventListener("click", function () {

@@ -43,10 +43,8 @@ h2 {
     color: #F5FFFA;
 }
 
-form {
-    position: absolute;
-    top: 45%;
-    left: 37%;
+#output {
+    display: inline;
 }
 
 .button {
@@ -62,8 +60,8 @@ form {
 
 .start {
     position: absolute;
-    top: 70%;
-    left: 45%;
+    top: 50%;
+    left: 43%;
     padding: 0.5rem 2rem;
     border-radius: 2%;
     background-color: white;
@@ -82,7 +80,7 @@ img {
 
 .game {
     text-align: center;
-    margin: 4rem;
+    margin: 0rem 4rem 4rem 4rem;
     padding: 2rem;
 
 }
@@ -93,7 +91,7 @@ img {
     border: 10px solid #FFFF00;
     padding: 1rem;
     border-radius: 50%;
-    background-color: whitesmoke;
+    background-color: #eebb99;
     transition: all 0.3s ease;
 }
 
