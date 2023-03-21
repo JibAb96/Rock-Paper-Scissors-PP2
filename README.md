@@ -1,11 +1,13 @@
-## Rock Paper Scissors
+# Golden Age
+
+
 
 ## User Experience (UX)
+### Key information for the site
 
+### User Stories
+#### Client Goals
 
-## User Stories
-
-### Client Goals
 
 ### First Time Visitors Goals
 
@@ -13,10 +15,19 @@
 ### Returning Visitor Goals
 
 
+### Frequent Visitor Goals
+<
+
+<hr>
+
+## Design 
+
 ### Colour Scheme
 
-
 ### Typography
+
+
+### Imagery
 
 ## Features
 
@@ -24,23 +35,43 @@
 ### Navigation
 
 
+
+<hr>
+
 ## Accessibility
 
-## Local Deployment
+<hr>
+
+## Technologies Used
+
+
+
+<hr>
+
+## Deployment & Local Deployment
+
+### Deploymment
+
+
+ ### Local Deployment
+
 
 
 ## Testing
 
 
 
-### Bugs
+## Bugs
 
 
-### Validator Testing
+
+## Validator Testing
 
 
-### Unfixed Bugs
+ ## Unfixed Bugs
 
+
+<hr>
 
 ## Credits
 
