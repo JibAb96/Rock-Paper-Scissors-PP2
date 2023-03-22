@@ -103,7 +103,5 @@ function draw(userPick, computerPick) {
 
 }
 
-// Add user name 
-// Add scoreboard
-// Rules
+
 click();
