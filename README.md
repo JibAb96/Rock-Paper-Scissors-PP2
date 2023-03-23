@@ -1,5 +1,5 @@
 # Rock Paper Scissors
-The <a href="">Rock Paper Scissors</a> website is designed for a user to play against the computer in a game of rock paper scissors. The computer generates random choices and the game reveals who the winner is. There is also a scoreboard to reveal who is in the lead.
+The <a href="">Rock Paper Scissors</a> website is designed for a user to play against the computer in a game of rock paper scissors. The computer generates random choices and the game reveals who the winner is. There is also a scoreboard to reveal who is in the lead. This game was made to display pure Javascript concepts.
 <img src="assets/images/am-i-resp-pp2.png">
 
 
@@ -106,7 +106,7 @@ No unfixed bugs were found.
 <li>I downloaded the hand sign images from the <a href="https://www.flaticon.com/search?word=rock">flaticon</a> website.</li>
 
 ### Content
-<li>I first found code from this website to code the switch statements in order to determine a winner from <a href="https://betterprogramming.pub/7-ways-to-code-rock-paper-scissors-in-javascript-4189a5e7e535">betterprogramming</a>.</li>
+<li>I first found the switch statements in order to determine a winner from <a href="https://betterprogramming.pub/7-ways-to-code-rock-paper-scissors-in-javascript-4189a5e7e535">betterprogramming</a>.</li>
 
-<li> I ran into problems on what functions I needed so I learnt a lot from <a href="https://www.youtube.com/watch?v=jaVNP3nIAv0&ab_channel=freeCodeCamp.org">freecodecamp</a> youtube walkthrough on how to structure and wat functions I needed for the game. </li>
+<li> I ran into problems on what functions I needed so I learnt a lot from <a href="https://www.youtube.com/watch?v=jaVNP3nIAv0&ab_channel=freeCodeCamp.org">freecodecamp</a> youtube walkthrough on how to structure and what functions I needed for the game. </li>
 
